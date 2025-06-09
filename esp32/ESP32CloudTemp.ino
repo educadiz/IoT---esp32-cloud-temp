@@ -18,9 +18,9 @@
 #define POST_INTERVAL 5000          // 5 segundos
 #define BLINK_INTERVAL 1000         // 1 segundo
 
-const char* ssid = "Lula_Ladrao";
-const char* password = "jetson@2260";
-const char* url = "https://us-central1-esp32cloudtemp.cloudfunctions.net/registrarTemperatura/registrar";
+const char* ssid = "seu_ssid";
+const char* password = "sua_senha_wifi";
+const char* url = "url_firebase_functions";
                    
 // ======= OBJETOS =======
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
