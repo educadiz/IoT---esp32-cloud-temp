@@ -1,18 +1,24 @@
-# ESP32 Cloud Temperature Monitor
+🌡️ TempCloud – ESP32 IoT Temperature Monitor
+IoT project using ESP32 to monitor temperature and humidity in real time, with a responsive web interface powered by Google Cloud Functions.
 
-Monitor de temperatura e umidade em tempo real usando ESP32 e Cloud Functions.
+🔧 Features
+📡 Continuous temperature and humidity tracking (DHT sensor)
 
-## Funcionalidades
+🌐 Integration with Google Cloud Functions
 
-- Monitoramento em tempo real de temperatura e umidade
-- Interface responsiva
-- Ícones dinâmicos baseados nas condições e período do dia
-- Atualização automática a cada 5 segundos
+🖥️ Responsive web interface with live updates every 5 seconds
 
-## Tecnologias
+☀️ Dynamic visuals based on weather conditions and time of day
 
-- HTML5
-- CSS3
-- JavaScript
-- Cloud Functions (Google Cloud)
-- ESP32
+🚀 Technologies Used
+ESP32 with DHT sensor
+
+Google Cloud Functions
+
+Frontend: HTML5, CSS3, Vanilla JavaScript
+
+📦 Structure
+/esp32: Embedded code (ESP32)
+
+/web: Web interface and visualization dashboard
+
